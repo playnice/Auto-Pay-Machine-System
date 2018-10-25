@@ -1,26 +1,4 @@
-**TSE2101 **
-
-**Final Report **
-
-**for**
-
-**Car Parking System**
-
-**Version 3.0**
-
-**Group No: TT09**
-
-|                   |                |     |
-|-------------------|----------------|-----|
-| **Wong Zi Xiang** | **1142701102** |     |
-| **Goh Chen Hui**  | **1151302075** |     |
-| **Gan Ka Jing**   | **1151300880** |     |
-
-|           |                                      |
-|-----------|--------------------------------------|
-|           |                                      |
-|           |                                      |
-| **Date:** | ***23<sup>th</sup> September 2016*** |
+##Car Parking System
 
 <span id="_Toc344877432" class="anchor"><span id="_Toc344879822" class="anchor"><span id="_Toc346508722" class="anchor"><span id="_Toc346508952" class="anchor"><span id="_Toc346509227" class="anchor"><span id="_Toc107858829" class="anchor"><span id="_Toc108287587" class="anchor"><span id="_Toc111014886" class="anchor"><span id="_Toc111117822" class="anchor"><span id="_Toc113291685" class="anchor"><span id="_Toc437002846" class="anchor"><span id="_Toc462408188" class="anchor"></span></span></span></span></span></span></span></span></span></span></span></span>Contents
 
