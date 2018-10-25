@@ -157,7 +157,7 @@ Project Plan
 
 For this project, we used the conventional waterfall model. The four main activities in the project are communication, modeling, construction and deployment. Communication will take around 5 days. During this activity we discussed the requirement of the system, background research of similar and related system, and non-functional requirements. Modeling will take around 3 weeks. In modeling we created use-case diagram, class diagram and sequence diagram. Construction will take around 1 and half month. We will begin implementation and testing of the system based on the model we created during modeling. Finally it will be deployment which will take around a week. We will prepare for presentation of the system and present the prototype.
 
-<img src="media/image1.png" alt="Gantt Chart v2-1" width="643" height="317" />
+<img src="./myMediaFolder/media/image1.png" alt="Gantt Chart v2-1" width="643" height="317" />
 
 **Figure 1: Gantt Chart**
 
@@ -169,7 +169,7 @@ Description
 
 Car parking system, as the project name implies it must allow people to park their cars. But no one in their right mind will let anyone park for free, that is why a system is needed. There will be a barricade at the entrance and exit of the car park which is managed by the system. The machine at the entrance will dispense a ticket and allow driver to enter the car park after the driver has taken the ticket. When the driver wants to exit the car park, he or she will have to pay the parking fee which is set by administrator using a machine located within the car park. The machine will then process the ticket and the driver will need to insert the ticket into the machine located at the exit so that the barricade will open and allow driver to exit. The driver can contacts technical support if encountered any error while operating the machines.
 
-<img src="media/image2.png" alt="Data Flow Context" width="453" height="333" />
+<img src="./myMediaFolder/media/image2.png" alt="Data Flow Context" width="453" height="333" />
 
 **Figure 2: Data Flow Diagram Context Level**
 
@@ -194,7 +194,7 @@ Assumptions and Dependencies
 Use Case Diagram
 ----------------
 
-<img src="media/image3.png" width="483" height="435" />
+<img src="./myMediaFolder/media/image3.png" width="483" height="435" />
 
 1.  <span id="_Toc439994682" class="anchor"><span id="_Toc437002858" class="anchor"></span></span>**Basic Requirements**
 
@@ -203,7 +203,7 @@ User
 
 1.  **Use case 1**
 
-<img src="media/image4.jpeg" alt="14445436_785154881625402_1058789091_n" width="450" height="528" />
+<img src="./myMediaFolder/media/image4.jpeg" alt="14445436_785154881625402_1058789091_n" width="450" height="528" />
 
 | Use case 1           | Take ticket                                                   |
 |----------------------|---------------------------------------------------------------|
@@ -220,7 +220,7 @@ User
 
 1.  **Use case 2**
 
-<img src="media/image5.png" alt="activity002" width="408" height="372" />
+<img src="./myMediaFolder/media/image5.png" alt="activity002" width="408" height="372" />
 
 | Use case 2           | User direction                                                    |
 |----------------------|-------------------------------------------------------------------|
@@ -229,7 +229,7 @@ User
 
 1.  **Use case 3**
 
-<img src="media/image6.png" alt="activity003" width="573" height="577" />
+<img src="./myMediaFolder/media/image6.png" alt="activity003" width="573" height="577" />
 
 | Use case 3           | Pay machine                                                        |
 |----------------------|--------------------------------------------------------------------|
@@ -250,7 +250,7 @@ User
 
 1.  **Use case 4**
 
-<img src="media/image7.png" alt="activity006" width="442" height="471" />
+<img src="./myMediaFolder/media/image7.png" alt="activity006" width="442" height="471" />
 
 | Use case 6           | Exit gate                                                    |
 |----------------------|--------------------------------------------------------------|
@@ -267,7 +267,7 @@ User
 
     1.  **Use case 5**
 
-<img src="media/image8.png" width="342" height="472" />
+<img src="./myMediaFolder/media/image8.png" width="342" height="472" />
 
 | Use case 4           | Admin login page                                      |
 |----------------------|-------------------------------------------------------|
@@ -280,7 +280,7 @@ User
 
 1.  **Use case 6**
 
-<img src="media/image9.png" alt="activity005" width="163" height="353" />
+<img src="./myMediaFolder/media/image9.png" alt="activity005" width="163" height="353" />
 
 | Use case 5           | Admin page                                           |
 |----------------------|------------------------------------------------------|
@@ -294,7 +294,7 @@ User
 Class Diagrams
 --------------
 
-> <img src="media/image10.png" alt="SE Class Diagram" width="498" height="813" />
+> <img src="./myMediaFolder/media/image10.png" alt="SE Class Diagram" width="498" height="813" />
 >
 > There are a total of 6 classes in this system, Driver, PayMachine, Admin, TechnicalSupport and Ticket. Driver will be instantiated as we will need to simulate a real driver holding tickets and performing actions. PayMachine also will be instantiated as many core functions of the system are performed here. Admin is also instantiated to simulate real administrator configuring pay machine. TechnicalSupport will not be instantiated as they only have one function with is easily represented by a message box. Ticket are instantiated every time there is a driver taking a ticket from entrance.
 
@@ -303,25 +303,25 @@ Sequence Diagram
 
 ### Driver get ticket from ticket machine.
 
-<img src="media/image11.png" width="318" height="324" />
+<img src="./myMediaFolder/media/image11.png" width="318" height="324" />
 
 Driver get ticket from ticket machine, barricade will be raised by ticket machine. Driver can contact technical support if machine malfunctioned.
 
 ### Driver put the ticket into pay machine to pay the parking fee
 
-<img src="media/image12.png" width="344" height="371" />
+<img src="./myMediaFolder/media/image12.png" width="344" height="371" />
 
 Driver insert ticket and pay the parking fee using pay machine and ticket will be returned after finishes payment
 
 ### Driver insert the ticket check out
 
-<img src="media/image13.png" width="276" height="314" />
+<img src="./myMediaFolder/media/image13.png" width="276" height="314" />
 
 Driver insert card into ticket machine, the ticket machine will check the ticket status, if true , gate open; if false, gate remains closed and display reminder.
 
 ### Admin need to login, then only can check the parking rate and revenue.
 
-<img src="media/image14.png" width="306" height="312" />
+<img src="./myMediaFolder/media/image14.png" width="306" height="312" />
 
 Admin needs to key in username and password and the pay machine will check whether it is correct. If correct, admin mode is enabled and admin can check revenue and change parking rates here.
 
@@ -331,14 +331,14 @@ Behavioural Requirements
 State Diagrams
 --------------
 
-<img src="media/image15.png" width="482" height="350" />
+<img src="./myMediaFolder/media/image15.png" width="482" height="350" />
 
 First user will go through dispense ticket state. After took the ticket, user can choose go to exit gate or pay machine. At the pay machine, user can go into admin mode if verifying success, admin mode can edit parking rate. After user inserted ticket, program will calculate fee and collect money from user. At the exit gate, program will scan the ticket if the ticket had paid. If paid, it will open gate.
 
 Data Flow Diagrams
 ------------------
 
-> <img src="media/image16.png" width="601" height="309" />
+> <img src="./myMediaFolder/media/image16.png" width="601" height="309" />
 >
 > After user take ticket, the ticket will store pay status, id, entertimestamp and exittimestamp into data base. User will need to pay at the ticket machine, the system will calculate fee according to parking rate after taking id, pay status, entertimestamp and exittimestamp from database. At the pay machine, admin can edit the parking rate if password and username match date from paymachine. Pay machine will also update revenue for admin to view. On the exit gate, user will return ticket and exit gate will get ticket id and pay status from database.
 
@@ -348,11 +348,11 @@ Database Requirements
 Table Definition
 ----------------
 
-<img src="media/image17.png" alt="tabeldefine" width="288" height="123" />
+<img src="./myMediaFolder/media/image17.png" alt="tabeldefine" width="288" height="123" />
 
 1.  **Relational Table**
 
-> <img src="media/image18.png" alt="ticketTable" width="403" height="285" />
+> <img src="./myMediaFolder/media/image18.png" alt="ticketTable" width="403" height="285" />
 
 Data Design
 ===========
@@ -398,7 +398,7 @@ Architecture Design
 Architecture Diagram
 --------------------
 
-<img src="media/image19.png" alt="a" width="472" height="354" />
+<img src="./myMediaFolder/media/image19.png" alt="a" width="472" height="354" />
 
 *Architecture Diagram*
 
@@ -410,7 +410,7 @@ The admin can access the admin system by login into the subsystem. After correct
 
 ### Entrance Gate System
 
-<img src="media/image20.png" alt="a" width="260" height="264" />
+<img src="./myMediaFolder/media/image20.png" alt="a" width="260" height="264" />
 
 *Subsystem 1: Entrance Gate System*
 
@@ -418,7 +418,7 @@ Entrance gate system will be able to open the gate to let the driver in and disp
 
 ### Auto Pay System
 
-<img src="media/image21.png" alt="a" width="218" height="270" />
+<img src="./myMediaFolder/media/image21.png" alt="a" width="218" height="270" />
 
 Subsystem 2: Auto Pay System
 
@@ -427,7 +427,7 @@ Auto pay system will be able to calculate the parking fee and return change to t
 3.13 Exit Gate System
 =====================
 
-<img src="media/image22.png" alt="a" width="207" height="243" />
+<img src="./myMediaFolder/media/image22.png" alt="a" width="207" height="243" />
 
 *Subsystem 3: Exit Gate System*
 
@@ -436,7 +436,7 @@ Exit gate system will be able to read the ticket status. If the status is paid, 
 3.14 Admin System 
 ==================
 
-<img src="media/image23.png" alt="a" width="213" height="252" />
+<img src="./myMediaFolder/media/image23.png" alt="a" width="213" height="252" />
 
 Subsystem 4: Admin System
 
@@ -450,7 +450,7 @@ Main Screens
 
 Driver would need to get their ticket here before they can park inside.
 
-<img src="media/image24.png" alt="main" width="251" height="369" />
+<img src="./myMediaFolder/media/image24.png" alt="main" width="251" height="369" />
 
 *Main Screen: Entrance GUI*
 
@@ -458,7 +458,7 @@ Driver would need to get their ticket here before they can park inside.
 
 This screen is to simulate real life reaction, people might be forgetful and go straight to exit instead of paying their ticket.
 
-<img src="media/image25.png" alt="main" width="264" height="397" />
+<img src="./myMediaFolder/media/image25.png" alt="main" width="264" height="397" />
 
 *Screen 1: Choice Screen*
 
@@ -466,11 +466,11 @@ This screen is to simulate real life reaction, people might be forgetful and go 
 
 There will be two UI, which is for driver and admin. Driver can pay the parking fee here and admin can check and change the parking rate here. Both UI can contact help center if problems occur.
 
-<img src="media/image26.png" alt="paymachine" width="239" height="365" />
+<img src="./myMediaFolder/media/image26.png" alt="paymachine" width="239" height="365" />
 
 *Screen 2: Driver’s Auto Pay Machine*
 
-<img src="media/image27.png" alt="login" width="586" height="332" />
+<img src="./myMediaFolder/media/image27.png" alt="login" width="586" height="332" />
 
 *Screen 3: Admin’s Auto Pay Machine*
 
@@ -482,7 +482,7 @@ There will be two UI, which is for driver and admin. Driver can pay the parking 
 
 The main components are **Technical Support,** **Entrance Ticketing Machine,** **Exit Ticketing Machine** and **Auto Pay Machine**. **Technical Support** is used when admin or driver need helps on something, such as gate not opening, pay machine error, admin cannot login. **Entrance Ticketing Machine** is for when the driver wants to enter the parking. **Exit Ticketing Machine** is for when the driver wants to exit the parking. Finally, **Auto Pay Machine** is for driver to pay their ticket. Admin can access **Auto Pay Machine** for modifying parking rates and checking revenue.
 
-<img src="media/image28.png" alt="Component Diagram" width="463" height="595" />
+<img src="./myMediaFolder/media/image28.png" alt="Component Diagram" width="463" height="595" />
 
 Component Diagram
 
@@ -490,7 +490,7 @@ Component Diagram
 
 This component will dispense ticket when the ticket button is pressed and open the gate for driver to enter.
 
-<img src="media/image29.png" alt="Entrance" width="513" height="224" />
+<img src="./myMediaFolder/media/image29.png" alt="Entrance" width="513" height="224" />
 
 Component 1: Entrance Ticketing Machine
 
@@ -522,7 +522,7 @@ Entrance Ticketing Machine
 
 **Activity diagram**
 
-<img src="media/image30.jpeg" alt="Entrance" width="513" height="631" />
+<img src="./myMediaFolder/media/image30.jpeg" alt="Entrance" width="513" height="631" />
 
 Activity Diagram 1: Entrance Ticketing Machine
 
@@ -530,7 +530,7 @@ Activity Diagram 1: Entrance Ticketing Machine
 
 This component will require driver to insert their parking ticket and the component will check whether the ticket is paid or not. If paid, the gate will be opened.
 
-<img src="media/image31.png" alt="Exit" width="505" height="242" />
+<img src="./myMediaFolder/media/image31.png" alt="Exit" width="505" height="242" />
 
 Component 2: Exit Ticketing Machine
 
@@ -552,7 +552,7 @@ Exit Ticketing Machine
 
 **Activity diagram**
 
-<img src="media/image32.jpeg" alt="Exit" width="507" height="471" />
+<img src="./myMediaFolder/media/image32.jpeg" alt="Exit" width="507" height="471" />
 
 Activity Diagram 2: Exit Ticketing Machine
 
@@ -560,7 +560,7 @@ Activity Diagram 2: Exit Ticketing Machine
 
 This component main usage is for drivers to pay their parking ticket so they can leave the parking. Administrator can also access this component to check the revenue and change the parking rate.
 
-<img src="media/image33.png" alt="Auto Pay Machine" width="559" height="477" />
+<img src="./myMediaFolder/media/image33.png" alt="Auto Pay Machine" width="559" height="477" />
 
 Component 3: Auto Pay Machine
 
@@ -608,11 +608,11 @@ Admin
 
 **Activity Diagram**
 
-<img src="media/image34.jpeg" alt="Admin Pay Machine" width="403" height="484" />
+<img src="./myMediaFolder/media/image34.jpeg" alt="Admin Pay Machine" width="403" height="484" />
 
 > Activity Diagram 3: Admin’s Auto Pay Machine
 >
-> <img src="media/image35.jpeg" alt="Driver Pay Machine" width="273" height="721" />
+> <img src="./myMediaFolder/media/image35.jpeg" alt="Driver Pay Machine" width="273" height="721" />
 >
 > Activity Diagram 4: Driver’s Auto Pay Machine
 
@@ -624,7 +624,7 @@ Admin
 
 User can interact with three applications. First is entrance gate, where use must pass through and get a ticket from before entering, timestamps are set in the ticket and database here. Next is pay machine, this is where user can pay parking fee accordingly to the hour user park, the ticket’s status will then be set to paid in both database and ticket itself. If user is admin, he can login and check the revenue and change parking rate here. Third is exit gate where user must insert the ticket before leaving, this machine will check whether the ticket is paid or not. All the application is connected to a database and every necessary users’ detail are store inside the database.
 
-<img src="media/image36.png" width="601" height="295" />
+<img src="./myMediaFolder/media/image36.png" width="601" height="295" />
 
 Deployment Diagram
 
@@ -702,24 +702,24 @@ Deployment Diagram
 Driver get the ticket from entrance ticket machine and obtain help if the ticket machine is malfunction.
 --------------------------------------------------------------------------------------------------------
 
-<img src="media/image37.png" width="195" height="290" />
+<img src="./myMediaFolder/media/image37.png" width="195" height="290" />
 
 <span id="_Toc460831440" class="anchor"></span>
 
 After the Driver insert ticket, amount need to pay will be shown on the screen.
 -------------------------------------------------------------------------------
 
-<img src="media/image38.png" width="214" height="303" />
+<img src="./myMediaFolder/media/image38.png" width="214" height="303" />
 
 Exit ticket machine after received paid ticket.
 -----------------------------------------------
 
-<img src="media/image39.png" width="321" height="284" />
+<img src="./myMediaFolder/media/image39.png" width="321" height="284" />
 
 Admin Login and changing parking rate and view revenue.
 -------------------------------------------------------
 
-<img src="media/image40.png" width="236" height="341" /><img src="media/image41.png" width="233" height="334" />
+<img src="./myMediaFolder/media/image40.png" width="236" height="341" /><img src="./myMediaFolder/media/image41.png" width="233" height="334" />
 
  Conclusion
 ===========
